@@ -1,0 +1,72 @@
+body {
+    background: #5c5758;
+    color: #fff;
+}
+.container {
+    width: 960px; margin: 0 auto;
+}
+
+.form-display {
+    margin: 130px auto;
+    width: 400px;
+    height: auto;
+    position: relative;
+    background: darkgrey;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.form-display h1 {
+    color: black;
+    font-size: 35px;
+    font-family: fantasy, sans-serif;
+    text-align: center;
+    letter-spacing: 5px;
+}
+fieldset {
+    /*background: brown;*/
+    border: none;
+    border-radius: 30px;
+}
+fieldset ul li {
+    list-style: none;
+}
+.item input {
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+.item .in1 {
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.item .in2 {
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+fieldset a {
+    width: 150px;
+    height: 25px;
+    font-size: 18px;
+    padding: 10px 10px;
+    font-weight: 600;
+    font-family: "Calibri Light", sans-serif;
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background: black;
+    transition: 0.4s;
+}
+fieldset a:hover {
+    transform: scale(1.1);
+    background: white;
+    color: black;
+}
+
+
+
+
